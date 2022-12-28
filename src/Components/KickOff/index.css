@@ -1,0 +1,96 @@
+.kick-main-cont {
+  background-color: #e9eef5;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.kick-hd {
+  font-size: 35px;
+  font-family: 'roboto';
+  font-weight: 500;
+  color: black;
+}
+.kick-para {
+  font-size: 20px;
+  font-family: 'roboto';
+  color: black;
+}
+.kick-bro-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #c70808;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px #e6eaf0;
+  height: 50px;
+  width: 200px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding: 10px;
+  margin-top: 25px;
+}
+.kick-sil-para {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 2px;
+}
+.kick-acca {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  border: solid 1px #ffffff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding: 4px;
+}
+.kick-mob-details-cont {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .kick-hd {
+    font-size: 25px;
+    font-family: 'roboto';
+    font-weight: 500;
+    color: black;
+  }
+  .kick-details-cont {
+    display: none;
+  }
+  .kick-mob-details-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .kick-main-cont {
+    background-color: #e9eef5;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+  }
+  .kick-bro-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+  .kick-mobile-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

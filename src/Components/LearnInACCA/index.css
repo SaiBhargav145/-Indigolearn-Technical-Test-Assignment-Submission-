@@ -1,0 +1,117 @@
+.learn-hr {
+  background-color: #3b0187;
+  color: #5802ad;
+  border-width: 5px;
+  width: 7%;
+  border-radius: 25px;
+  border: solid 5px #5802ad;
+}
+.learn-main-cont {
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+.learn-sec-cont {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.learn-main-hd {
+  color: black;
+  font-weight: 500;
+  font-family: 'roboto';
+  font-size: 30px;
+  text-align: center;
+}
+.leran-cont-hd {
+  height: 60px;
+  background-color: #3b0187;
+  color: white;
+}
+.learn-hd {
+  text-align: center;
+  color: #ffffff;
+  font-size: 23px;
+  font-family: 'roboto';
+  font-weight: 400;
+  padding: 15px;
+  padding-bottom: 30px;
+}
+.learn-cont-buttom {
+  height: 45px;
+  background-color: #3b0187;
+  color: white;
+  padding-bottom: 40px;
+}
+.learn-li-cont {
+  height: 320px;
+  width: 320px;
+  background-color: #e9eef5;
+}
+.learn-bottom-hd {
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'roboto';
+  padding-bottom: 15px;
+}
+.learn-li {
+  color: black;
+  font-size: 15px;
+  font-family: 'roboto';
+}
+.ul-hd {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px;
+}
+.all-leran-conts {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.learn-hr-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .learn-hr {
+    background-color: #3b0187;
+    color: #5802ad;
+    border-width: 5px;
+    width: 15%;
+    border-radius: 25px;
+    border: solid 5px #5802ad;
+  }
+  .learn-main-hd {
+    color: black;
+    font-weight: 500;
+    font-family: 'roboto';
+    font-size: 40px;
+    text-align: center;
+  }
+  .all-leran-conts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .learn-main-cont {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .learn-cont-buttom {
+    height: 45px;
+    background-color: #3b0187;
+    color: white;
+    padding-bottom: 40px;
+  }
+  .learn-hd {
+    padding-bottom: 30px;
+  }
+}

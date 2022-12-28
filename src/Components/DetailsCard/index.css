@@ -1,0 +1,112 @@
+.details-main-cont {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 20px;
+  height: 350px;
+  width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px #e1dfe6;
+  border-top: solid 3px #3b0187;
+}
+.details-sec-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.details-main-hd {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'roboto';
+  font-weight: 400;
+  color: black;
+}
+.de-input {
+  color: black;
+  font-size: 15px;
+  font-family: 'roboto';
+  width: 500px;
+  color: grey;
+}
+.de-ip-cont {
+  padding: 7px;
+}
+.de-place-holer-text {
+  font-size: 15px;
+}
+.initial-select {
+  color: grey;
+}
+.Succ-Button {
+  background-color: #3b0187;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.Success-hd {
+  color: black;
+  font-size: 20px;
+  margin-left: 5px;
+  text-align: center;
+}
+.success-logo {
+  font-size: 20px;
+}
+.model-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.res-hd-succ {
+  color: black;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .details-main-cont {
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    box-shadow: 20px;
+    height: 380px;
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px #e1dfe6;
+    border-top: solid 3px #3b0187;
+  }
+  .details-main-hd {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'roboto';
+    font-weight: 400;
+    color: black;
+  }
+  .de-input {
+    color: black;
+    font-size: 10px;
+    font-family: 'roboto';
+    width: 300px;
+    color: grey;
+    height: 30px;
+  }
+  .Succ-Button {
+    background-color: #3b0187;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .de-place-holer-text {
+    font-size: 15px;
+  }
+}
